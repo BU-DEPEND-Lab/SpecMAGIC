@@ -11,12 +11,9 @@ Repo for "<a href="https://arxiv.org/abs/2610.30443" target="_blank">SpecMAGIC: 
 
 We propose a hierarchical framework consisting of a centralized high-level planner and decentralized low-level policies. The high-level planner directly operates in the subtask space to construct a feasible subtask sequence that satisfies the given specifications, while the low-level policies sequentially execute the planned subtasks.
 
-<!-- TODO: optional framework figure -->
-<!-- <p align="center"><img src="vis/framework.png" alt="Framework" width="80%"></p> -->
-
 ## Installation
 
-The code is adapted from [GenZ-LTL](https://www.arxiv.org/abs/2508.01561) and [SpecRLBench](https://arxiv.org/abs/2604.24729) and requires Python 3.10 and PyTorch (tested with version 2.2.2). To use the _Zone_ environment, use the following command to install the required dependencies:
+The code is adapted from [GenZ-LTL](https://www.arxiv.org/abs/2508.01561), [SpecRLBench](https://arxiv.org/abs/2604.24729) and [Safety-Gymnasium](https://safety-gymnasium.readthedocs.io/en/latest/) and requires Python 3.10 and PyTorch (tested with version 2.2.2). To use the _Zone_ environment, use the following command to install the required dependencies:
 ```bash
 conda activate spec-marl
 cd src/envs/zones/safety-gymnasium
