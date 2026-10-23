@@ -1,11 +1,10 @@
 <h1 align="center">
 <br>
-<!-- TODO: paper title -->
-SpecMAGIC: [Paper Title Placeholder]
+SpecMAGIC: Specification-Guided Multi-Task Generalization in Multi-Agent Reinforcement Learning
 </h1>
 
 <p align="center">
-Repo for "<a href="TODO" target="_blank">SpecMAGIC</a>" <!-- TODO: link + venue -->
+Repo for "<a href="https://arxiv.org/abs/2610.30443" target="_blank">SpecMAGIC: Specification-Guided Multi-Task Generalization in Multi-Agent Reinforcement Learning</a>" [arXiv]
 </p>
 
 ## Method
@@ -169,10 +168,10 @@ The specifications used in the visualizations are listed below. <!-- TODO: updat
 
 If you find our work useful, please cite it as:
 ```
-@inproceedings{TODO,
-  title={TODO},
-  author={TODO},
-  booktitle={TODO},
-  year={TODO}
+@article{guo2026specmagic,
+  title={SpecMAGIC: Specification-Guided Multi-Task Generalization in Multi-Agent Reinforcement Learning},
+  author={Guo, Zijian and I{\c{s}}{\i}k, {\.I}lker and Ahmad, H. M. Sabbir and Li, Wenchao},
+  journal={arXiv preprint arXiv:2610.30443},
+  year={2026}
 }
 ```
